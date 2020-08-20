@@ -1,0 +1,9 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/TungstenVn/UnallowedSound
+build-by-default: true
+branches:
+- master
+projects:
+  UnallowedSound:
+    path: ""
+    icon: icon.png
+...

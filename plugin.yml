@@ -1,0 +1,5 @@
+name: UnallowedSound
+version: 0.0.1
+main: Tungst\UnallowedSound\UnallowedSound
+api: 3.0.0
+author: author_name

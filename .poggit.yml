@@ -5,5 +5,5 @@ branches:
 projects:
   UnallowedSound:
     path: ""
-    icon: icon.jpg
+    icon: icon.png
 ...

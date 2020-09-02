@@ -15,7 +15,9 @@ class UnallowedSound extends PluginBase implements Listener
 	{
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 	}
-
+	/**
+    * @priority MONITOR
+    */
 	public function onBreak(BlockBreakEvent $ev)
 	{
 		if ($ev->isCancelled()) {
@@ -23,7 +25,9 @@ class UnallowedSound extends PluginBase implements Listener
 			$block->getLevel()->broadcastLevelSoundEvent($block, LevelSoundEventPacket::SOUND_BREAK, $block->getRuntimeId());
 		}
 	}
-
+	/**
+    * @priority MONITOR
+    */
 	public function onPlace(BlockPlaceEvent $ev)
 	{
 		if ($ev->isCancelled()) {
